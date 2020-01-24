@@ -1,0 +1,16 @@
+Question 12
+
+First go to =
+https://www.ensembl.org/
+
+Paste the rs number and select zebrafish as species. 
+
+LocationChromosome 10:10138412 (forward strand): ON the chromosome location bar at the top of the screen.
+
+Question 13
+
+Search NOTCH1 on NCBI gene, Select Mouse (Gene ID: 18128)
+Select the location chromosone 2: 26457902..26503822
+
+curl 'http://rest.ensembl.org/sequence/region/mouse/2:26457902..26503822:1' -H 'Content-type:text/x-fasta' 
+
